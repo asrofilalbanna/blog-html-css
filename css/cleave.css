@@ -1,0 +1,268 @@
+body {
+	margin: auto;	
+	margin-top: 30px;
+	background-image: url(../image/background-1.jpg);
+}
+
+/* Header */
+
+/* Header Main Judul */
+#main_judul {
+	background: orange;
+	width: 85%;
+	height: 100px;
+	position: relative;
+	/*border: 0px solid black;*/
+	/*border-radius: 10px;*/
+	margin: auto;
+	float: left;
+	/* margin-bottom: 10px; */
+	
+}
+
+#main_judul span {
+	text-align: left;
+	font-size: 58px;
+	font-family: fantasy;
+	/* margin-left: 200px; */
+	/*margin-bottom: 0px;*/
+}
+
+/* Header Navbar */
+nav {
+	/* width: 100%; */
+}
+
+nav ul {
+	padding: 0px;
+	margin-top: -10px;
+	margin-left: 200px;
+	display: inline-block;
+}
+
+nav ul li {
+	font-size: 20px;
+	font-family: fantasy;
+	list-style: none;
+	display: inline-block;
+    color: black;
+    text-decoration: none;
+    border-right: 3px solid black;
+    padding-right: 6px;
+    margin: 3px;
+}
+
+nav ul li:last-child {
+	font-size: 20px;
+	font-family: fantasy;
+	list-style: none;
+	display: inline-block;
+    color: black;
+    text-decoration: none;
+    border-right: none;
+}
+
+/*#main_judul #sub_judul ul li:after  {
+    content: "|";
+    font-size: 25px;
+    color: black;
+    padding: 0px 10px;
+}
+
+#main_judul #sub_judul ul li:after:last-child  {
+    content: "";
+    font-size: 25px;
+    color: black;
+    padding: 0px 10px;
+}*/
+
+nav ul li a {
+	font-size: 20px;
+	font-family: fantasy;
+	list-style: none;
+	display: inline-block;
+    color: black /* #ff3c00*/;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+	font-size: 20px;
+	font-family: fantasy;
+	list-style: none;
+	display: inline-block;
+    color: /*black*/ #ff3c00;
+    text-decoration: none;
+
+}
+
+/* Header Logo */
+#logo {
+	background-image: url(../image/icon-cleveland-browns-1.png);
+	background-size: contain; /* gambar supaya sesuai ukuran*/
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 200px;
+	height: 115px;
+	margin-top: -20px;
+	top: 19px;
+	left: 5px;
+	/*right:0;*/
+	/*bottom: 0px;*/
+	/* position: absolute; */
+	/* display: inline-block; */
+
+}
+
+#logo2 {
+	background-image: url(../Picture/BrownsLogo.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 80px;
+	position: absolute;
+	right:0;
+	top: 0;
+	/*left: 0;*/
+	border: 0px solid black;
+}
+
+#content {
+	/*background-color: ;*/
+	position: relative;
+	width: 90%;
+	height: 100%;
+	margin: auto;
+}
+
+#content #mainbar {
+	width: 70%;
+	height: 100%;
+	border: 1px solid black;
+	/*float: left;*/
+	left: 0;
+	vertical-align: top;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: white;
+	font-family: tahoma;
+	text-align: justify;
+}
+
+#content #sidebar {
+	width: 27%;
+	height: 300px;
+	position: absolute;
+	right: 0;
+	/*border: 0px solid grey;*/
+	border-radius: 3px;
+}
+
+#content #sidebar1 {
+	width: 100%;	
+	/*background-image: url(../Picture/brownssubcontent.jpg);*/
+	background-color: white;
+	background-repeat: no-repeat;
+	top: 0;
+	right: 0;
+	position: absolute;
+	border: 1px solid grey;
+}
+
+#content #sidebar1 #judul_sidebar {
+	font-family: monospace;
+	font-size: 20px;
+	margin-left: 10px;
+}
+
+#content #sidebar1 #subjudul_sidebar {
+	font-family: monospace;
+	color: grey;
+	margin-left: 10px;
+}
+
+
+#content #sidebar2 {
+	width: 100%;
+	/*position: absolute;*/
+	margin-left:10px;
+	margin-bottom: 10px;
+	right: 0;
+	bottom: 0;
+	/*border: 0px solid grey;*/
+	/*border-top: 1px solid grey;*/
+	font-family: monospace;
+	font-size: 15px;
+	font-weight: bold;
+
+}
+
+.clearfix { /*digunakan ketika ada float*/
+	clear: both;
+}
+
+#footer{
+	width: 100%;
+	height: 60px;
+	background-color: black;
+	position: absolute;
+}
+
+#footer1 {
+	/*float: left;*/
+	width: 90%;
+	height: 25%;
+	background-color: #311d00;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding: 10px;
+	font-family: serif;
+	font-size: 13px;
+	color: white;
+	text-align: center;
+
+	
+}
+
+#footer1 ul li {
+	list-style: none;
+	display: inline-block;
+	/*content: "|";*/
+    font-size: 15px;
+    color: #ff3c00;
+    padding: 0px 10px;
+    border-right: 2px solid #ff3c00;
+}
+
+
+#footer1 ul li:first-child {
+    border-left: 2px solid #ff3c00;
+}
+
+/*#footer1 ul li:after {
+    content: "|";
+    font-size: 15px;
+    color: #ff3c00;
+    padding: 0px 10px;
+}*/
+
+#footer1 ul li a {
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+}
+
+#footer1 ul li a:hover {
+    font-size: 12px;
+    color: #ff3c00;
+    text-decoration: none;
+}
+
+#footer2 {
+	float: right;
+	width: 60%;
+	background-color: pink;
+	height: 40px;
+}
+
